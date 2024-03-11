@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 20px;
+      background-color: white;
+    }
+
+    h1 {
+      color: #1a64d6;
+      font-size: 34px;
+      margin: 0;
+      line-height: 48px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    h2 {
+      color: black;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 48px;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+    }
+
+    li {
+      color: black;
+      font-size: 16px;
+      padding: 10px 0px;
+      border-radius: 10px;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+    li:hover {
+      background-color: #fffbef;
+      margin: 18px;
+    }
+    h3 {
+      font-size: 16px;
+      text-align: center;
+      color: black;
+      margin: 19px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+      font-size: 16px;
+      color: black;
+      margin: 19px;
+      opacity: 0.5;
+      text-align: center;
+      font-family: monospace;
+    }
+    .main-button {
+      background-color: #1a64d6;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid #1a64d6;
+      display: block;
+      margin: 20px auto;
+      font-size: 16px;
+      padding: 16px 24px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 88, 0.6);
+      cursor: pointer;
+      line-height: 22px;
+    }
+    .main-button:hover {
+      background-color: white;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+    }
+    .uju-list {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+    p {
+      font-size: 18px;
+      opacity: 0.5;
+      text-align: center;
+      font-family: monospace;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="city">
+        <h1>
+          🌤
+          <br />
+          Currently 21° in Tokyo
+        </h1>
+        <h2>
+          13° /
+          <strong>23°</strong>
+        </h2>
+        <ul class="uju-list">
+          <li>
+            <h3>🌧Tomorrow</h3>
+            <p>
+              10° /
+              <strong>22°</strong>
+            </p>
+          </li>
+          <li>
+            <h3>🌥 Saturday</h3>
+            <p>
+              15° /
+              <strong>17°</strong>
+            </p>
+          </li>
+          <li>
+            <h3>☀️ Sunday</h3>
+            <p>
+              25° /
+              <strong>28°</strong>
+            </p>
+          </li>
+        </ul>
+        <button class="main-button">Change City</button>
+        <p>Coded by Ede Faith Oluchi</p>
+      </div>
+    </div>
+  </body>
+</html>
